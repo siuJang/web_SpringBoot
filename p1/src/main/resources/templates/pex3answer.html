@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title th:text="|${name}'s color|">둘리's color</title>
+</head>
+<body>
+<strong th:text="${name}">둘리</strong>님이 좋아하는 색은<br>
+<strong th:text="${color}" th:style="|color:${color}|">aqua</strong>입니다.
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"><title>list</title>
+<link rel="stylesheet" href="/ex05.css">
+</head>
+<body>
+<h2>종강햇음좋겟다</h2>
+<table> 
+<tr id="ftr"> 
+ <th>알수없는 숫자들
+<tr th:each="a:${arr1}"> 
+ <td th:text="${a}">
+</table>
+<table> 
+<tr id="ftr"> 
+ <th>요즘드는생각
+<tr th:each="a:${arr2}"> 
+ <td th:text="${a}">
+</table>
+</body>
+</html>

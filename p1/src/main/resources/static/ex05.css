@@ -1,0 +1,5 @@
+@charset "UTF-8";
+body {background-color:grey;}
+table {width:200px; border:dashed black; }
+#ftr {background-color:black; color:white;}
+td {color:white; text-align:center;}

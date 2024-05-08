@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+<title>명언 
+</title>
+<style>
+body{background-color:skyblue;}
+table, td {border: 1px solid black;}
+th{border: 1px solid black;}
+</style>
+</head>
+<body>
+<h2>오늘의 명언</h2><p>
+<table>
+<tr><th>위인<td th:text="${fname}">fname</td>
+<tr><th>명언<td th:text="${mal}">mal</td>
+</table>
+</body>
+</html>
